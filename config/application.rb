@@ -18,5 +18,6 @@ module ExampleApp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.assets.excluded_paths << "app/assets/application.css"
   end
 end
